@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(96, 28, 160);
+    margin: 0;
+    justify-items: center;
+}
+header{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    margin: 10px 0;
+}
+.logo img{
+    height: 100%;
+}
+nav{
+    background-color: rgb(150, 67, 228);
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 15px;
+    font-weight: bolder;
+}
+
+main{
+    width: 900px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(6, 300px);
+    grid-gap: 10px;
+}
+
+.producto{
+    background-color: rgb(150, 67, 228);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+.producto img{
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+h3{
+    color: aliceblue;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5px;
+}
+p{
+    color: rgb(107, 7, 7);
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.grafico1 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+.grafico1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.grafico2 {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+}
+.grafico2 img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: rgb(150, 67, 228);
+    width: 100%;
+    height: 40px;
+    margin: 15px 0 0 0;
+    justify-items: center;
+    align-content: center;
+}
+footer p{
+    color: aliceblue;
+    font-weight: bolder;
+}
